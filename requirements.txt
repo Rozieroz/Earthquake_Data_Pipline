@@ -1,0 +1,23 @@
+# === Core Dependencies for Earthquake Project ===
+
+# HTTP requests for API polling
+requests>=2.31.0
+
+# SQLAlchemy for database engine + queries
+SQLAlchemy>=2.0.0
+
+# MySQL connector (C-based, very fast)
+mysql-connector-python>=8.3.0
+
+# Pandas for data manipulation
+pandas>=2.0.0
+
+# PySpark for SparkSession + DataFrame operations
+pyspark==3.4.4
+
+# (Optional but Recommended) python-dotenv for .env support
+python-dotenv>=1.0.0
+
+# (Optional) psycopg2 for Airflow metadata DB if you’re using PostgreSQL
+psycopg2-binary>=2.9.9
+# (Optional) apache-airflow for workflow orchestration
